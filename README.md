@@ -26,6 +26,7 @@ It will be this:
 | 2 | SharePoint Developers and Solution Architects     | Dallas, TX    |We are currently in need of Developers who can...  |consulting                                |IT Consulting| senior_specialist_or_project_manager|
 | 3 | Business Information Services - Strategic Acco... | North Carolina|Experian is seeking an experienced Account Exe...  |sales                                     |Security, Risk, Restructuring Consulting | senior_specialist_or_project_manager|
 | 4 | Strategic Development Director (procurement)	    | Austin, TX    |Â Want to join a world-class global procuremen...  |procurement_materials_logistics           |Information Technology| bereichsleiter|
+|...|...|...|.....|...|...|...|
 
 
 ## Data Preprocessing
