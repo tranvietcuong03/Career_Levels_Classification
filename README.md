@@ -43,15 +43,15 @@ print(df.head())
   pip install numpy
   ```
    * Scikit-learn:
-      ```sh
+  ```sh
   pip install scikit-learn
   ```
    * Imbalance-learn:
-      ```sh
+  ```sh
   pip install imblearn
   ```
    * Odf (It supports to read an excel file):
-      ```sh
+  ```sh
   pip install odfpy
   ```
 
