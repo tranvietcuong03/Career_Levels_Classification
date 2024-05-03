@@ -18,13 +18,13 @@ Possible career_levels:
   8. managing_director_large_company
 
 ## Dataset
-Dataset: <mark style="color: blue;">https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods<mark/>
+Dataset: <mark style="color: blue;">https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods<mark/> <br>
 It will be here:
-'''
+
 import pandas as pd
 df = pd.read_excel("career_levels.ods", engine="odf", dtype=str)
 print(df.head())
-'''
+
 
 ## Data Preprocessing
 * Cleaning: Handled missing values and outliers.
