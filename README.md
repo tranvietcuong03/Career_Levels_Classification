@@ -38,23 +38,11 @@ print(df.head())
   ```sh
   pip install pandas
   ```
-   * Numpy
-  ```sh
-  pip install numpy
-  ```
-   * Scikit-learn:
-  ```sh
-  pip install scikit-learn
-  ```
-   * Imbalance-learn:
-  ```sh
-  pip install imblearn
-  ```
    * Odf (It supports to read an excel file):
   ```sh
   pip install odfpy
   ```
-
+  There are similar to numpy, scikit-learn and imblearn to install
 ## Model
 
 I used <mark style="font-weight: 600;">RandomizedSearchCV<mark/> for training the model to find the best result. I handled the text data by <mark style="font-weight: 600;">TfidfVectorizer<mark/> and <mark style="font-weight: 600;">OneHotEncoder<mark/>.
