@@ -18,7 +18,7 @@ Possible career_levels:
   8. managing_director_large_company
 
 ## Dataset
-Dataset: <br>https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods<br/>
+Dataset: <mark style="color: blue;">https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods<mark/>
 It will be here:
 '''
 import pandas as pd
@@ -47,7 +47,7 @@ print(df.head())
 
 ## Model
 
-I used <br>RandomizedSearchCV<br/> for training the model to find the best result. I handled the text data by <br>TfidfVectorizer<br/> and <br>OneHotEncoder<br/>.
+I used <mark>RandomizedSearchCV<mark/> for training the model to find the best result. I handled the text data by <mark>TfidfVectorizer<mark/> and <mark>OneHotEncoder<mark/>.
 
 ## Result:
 * Accuracy: 0.71
