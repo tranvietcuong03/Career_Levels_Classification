@@ -18,8 +18,8 @@ Possible career_levels:
   8. managing_director_large_company
 
 ## Dataset
-Dataset: [Download career_levels.ods](https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods)
-It will be here: 
+Dataset: [Download career_levels.ods](https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods) <br>
+It will be this: 
 |   |  Title                                            | Location      | description                                       | function	                               | industry	| career_level
 |---|---------------------------------------------------|---------------|---------------------------------------------------|------------------------------------------|-----------|-------------|
 | 1 | Cnslt - Systems Eng- Midrange 1                   | Seattle, WA   |Participates in design, development and implem...	|information_technology_telecommunications |Financial Services| senior_specialist_or_project_manager |
