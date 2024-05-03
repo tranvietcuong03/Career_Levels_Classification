@@ -20,36 +20,13 @@ Possible career_levels:
 ## Dataset
 Dataset: [Download career_levels.ods](https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods)
 It will be here: 
-title        location  \
-0              Technical Professional Lead - Process     Houston, TX   
-1                    Cnslt - Systems Eng- Midrange 1     Seattle, WA   
-2      SharePoint Developers and Solution Architects      Dallas, TX   
-3  Business Information Services - Strategic Acco...  North Carolina   
-4       Strategic Development Director (procurement)      Austin, TX   
+|   |  Title                                            | Location      | description                                       | function	                               | industry	| career_level
+|---|---------------------------------------------------|---------------|---------------------------------------------------|------------------------------------------|-----------|-------------|
+| 1 | Cnslt - Systems Eng- Midrange 1                   | Seattle, WA   |Participates in design, development and implem...	|information_technology_telecommunications |Financial Services| senior_specialist_or_project_manager |
+| 2 | SharePoint Developers and Solution Architects     | Dallas, TX    |We are currently in need of Developers who can...  |consulting                                |IT Consulting| senior_specialist_or_project_manager|
+| 3 | Business Information Services - Strategic Acco... | North Carolina|Experian is seeking an experienced Account Exe...  |sales                                     |Security, Risk, Restructuring Consulting | senior_specialist_or_project_manager|
+| 4 | Strategic Development Director (procurement)	    | Austin, TX    |Â Want to join a world-class global procuremen...  |procurement_materials_logistics           |Information Technology| bereichsleiter|
 
-                                         description  \
-0  Responsible for the study, design, and specifi...   
-1  Participates in design, development and implem...   
-2  We are currently in need of Developers who can...   
-3  Experian is seeking an experienced Account Exe...   
-4  Â Want to join a world-class global procuremen...   
-
-                                    function  \
-0                   production_manufacturing   
-1  information_technology_telecommunications   
-2                                 consulting   
-3                                      sales   
-4            procurement_materials_logistics   
-
-                                          industry  \
-0  Machinery and Industrial Facilities Engineering   
-1                               Financial Services   
-2                                    IT Consulting   
-...
-1  senior_specialist_or_project_manager  
-2  senior_specialist_or_project_manager  
-3  senior_specialist_or_project_manager  
-4                        bereichsleiter  
 
 ## Data Preprocessing
 * Cleaning: Handled missing values and outliers.
