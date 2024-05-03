@@ -18,13 +18,38 @@ Possible career_levels:
   8. managing_director_large_company
 
 ## Dataset
-Dataset: <mark style="color: blue;">https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods<mark/> <br>
+Dataset: [Download career_levels.ods](https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods)
 It will be here: 
-echo "
-import pandas as pd
-df = pd.read_excel("career_levels.ods", engine="odf", dtype=str)
-print(df.head())
-"
+title        location  \
+0              Technical Professional Lead - Process     Houston, TX   
+1                    Cnslt - Systems Eng- Midrange 1     Seattle, WA   
+2      SharePoint Developers and Solution Architects      Dallas, TX   
+3  Business Information Services - Strategic Acco...  North Carolina   
+4       Strategic Development Director (procurement)      Austin, TX   
+
+                                         description  \
+0  Responsible for the study, design, and specifi...   
+1  Participates in design, development and implem...   
+2  We are currently in need of Developers who can...   
+3  Experian is seeking an experienced Account Exe...   
+4  Â Want to join a world-class global procuremen...   
+
+                                    function  \
+0                   production_manufacturing   
+1  information_technology_telecommunications   
+2                                 consulting   
+3                                      sales   
+4            procurement_materials_logistics   
+
+                                          industry  \
+0  Machinery and Industrial Facilities Engineering   
+1                               Financial Services   
+2                                    IT Consulting   
+...
+1  senior_specialist_or_project_manager  
+2  senior_specialist_or_project_manager  
+3  senior_specialist_or_project_manager  
+4                        bereichsleiter  
 
 ## Data Preprocessing
 * Cleaning: Handled missing values and outliers.
@@ -43,9 +68,11 @@ print(df.head())
   pip install odfpy
   ```
   There are similar to numpy, scikit-learn and imblearn to install
+  
 ## Model
 
-I used <mark style="font-weight: 600;">RandomizedSearchCV<mark/> for training the model to find the best result. I handled the text data by <mark style="font-weight: 600;">TfidfVectorizer<mark/> and <mark style="font-weight: 600;">OneHotEncoder<mark/>.
+I used **RandomizedSearchCV** for training the model to find the best results. I handled the text data using **TfidfVectorizer** and **OneHotEncoder**.
+
 
 ## Result:
 * Accuracy: 0.71
