@@ -20,11 +20,11 @@ Possible career_levels:
 ## Dataset
 Dataset: <mark style="color: blue;">https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods<mark/> <br>
 It will be here: 
-
+echo "
 import pandas as pd
 df = pd.read_excel("career_levels.ods", engine="odf", dtype=str)
 print(df.head())
-
+"
 
 ## Data Preprocessing
 * Cleaning: Handled missing values and outliers.
