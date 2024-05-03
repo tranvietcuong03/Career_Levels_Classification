@@ -19,7 +19,7 @@ Possible career_levels:
 
 ## Dataset
 Dataset: <mark style="color: blue;">https://github.com/tranvietcuong03/career_levels_prediction/blob/master/career_levels.ods<mark/> <br>
-It will be here:
+It will be here: 
 
 import pandas as pd
 df = pd.read_excel("career_levels.ods", engine="odf", dtype=str)
@@ -34,20 +34,30 @@ print(df.head())
 ## Setup
 - Requirement: Ensure you have Python 3 and required libraries installed (pandas, numpy, sklearn, imblearn).
 - Installation:
-   * Pandas:
-      pip install pandas
-   * Numpy:
-     pip install numpy
+  * Pandas
+  ```sh
+  pip install pandas
+  ```
+   * Numpy
+  ```sh
+  pip install numpy
+  ```
    * Scikit-learn:
-     pip install scikit-learn
+      ```sh
+  pip install scikit-learn
+  ```
    * Imbalance-learn:
-     pip install imblearn
+      ```sh
+  pip install imblearn
+  ```
    * Odf (It supports to read an excel file):
-     pip install odfpy
+      ```sh
+  pip install odfpy
+  ```
 
 ## Model
 
-I used <mark>RandomizedSearchCV<mark/> for training the model to find the best result. I handled the text data by <mark>TfidfVectorizer<mark/> and <mark>OneHotEncoder<mark/>.
+I used <mark style="font-weight: 600;">RandomizedSearchCV<mark/> for training the model to find the best result. I handled the text data by <mark style="font-weight: 600;">TfidfVectorizer<mark/> and <mark style="font-weight: 600;">OneHotEncoder<mark/>.
 
 ## Result:
 * Accuracy: 0.71
