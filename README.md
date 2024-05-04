@@ -54,7 +54,7 @@ I used **RandomizedSearchCV** for training the model to find the best results. I
 
 
 ## Result:
-* Accuracy: 0.71
-* Precision: 0.63(macro avg), 0.70(weighted avg).
-* Recall: 0.45(macro avg), 0.71(weighted avg).
-* F1-score: 0.50(macro avg), 0.70(weighted avg).
+* Accuracy: 0.73
+* Precision: 0.57(macro avg), 0.73(weighted avg).
+* Recall: 0.40(macro avg), 0.73(weighted avg).
+* F1-score: 0.45(macro avg), 0.72(weighted avg).
